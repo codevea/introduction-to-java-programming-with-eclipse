@@ -5,7 +5,5 @@ public class Principale14 {
 
 		Fenetre fenetrePrincipale = new Fenetre();
 		fenetrePrincipale.setVisible(true);
-
 	}
-
 }

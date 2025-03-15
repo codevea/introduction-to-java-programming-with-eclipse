@@ -19,17 +19,15 @@ public class Principale03 {
 			prixSolde = 0.8 * prixArticle;
 			System.out.print("Le prix de l'article soldé à -20% est " + prixSolde + " €.");
 
-		} else if(codeSolde == 2 ) {
+		} else if (codeSolde == 2) {
 			prixSolde = 0.5 * prixArticle;
 			System.out.print("Le prix de l'article soldé à -50% est " + prixSolde + " €.");
 		} else {
 			prixSolde = 0.3 * prixArticle;
 			System.out.print("Le prix de l'article soldé à -70% est " + prixSolde + " €.");
 		}
-		
+
 		// Libération de la mémoire réservée à l'objet clavier.
 		clavier.close();
-
 	}
-
 }

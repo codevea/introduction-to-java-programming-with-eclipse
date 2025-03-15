@@ -17,7 +17,5 @@ public class Principale13 {
 		for (int i = 0; i < tbSalaries.size(); i++) {
 			System.out.print(tbSalaries.get(i).toString() + "\n");
 		}
-
 	}
-
 }

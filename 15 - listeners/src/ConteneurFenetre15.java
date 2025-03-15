@@ -116,7 +116,7 @@ public class ConteneurFenetre15 extends JPanel implements ActionListener, MouseL
 			
 			this.imageLbl.setBounds(this.imageLbl.getX(), this.imageLbl.getY()+10,  this.imageLbl.getWidth(), this.imageLbl.getHeight());
 			
-		}else if(e.getKeyCode() == KeyEvent.VK_LEFT) {
+		} else if(e.getKeyCode() == KeyEvent.VK_LEFT) {
 			
 			this.imageLbl.setBounds(this.imageLbl.getX()-10, this.imageLbl.getY(),  this.imageLbl.getWidth(), this.imageLbl.getHeight());
 			
@@ -130,19 +130,16 @@ public class ConteneurFenetre15 extends JPanel implements ActionListener, MouseL
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
-
 	}
 
 	@Override
 	public void mousePressed(MouseEvent e) {
 		// TODO Auto-generated method stub
-
 	}
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
 		// TODO Auto-generated method stub
-
 	}
 
 	@Override
@@ -154,13 +151,10 @@ public class ConteneurFenetre15 extends JPanel implements ActionListener, MouseL
 	@Override
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
-
 	}
 
 	@Override
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
-
 	}
-
 }

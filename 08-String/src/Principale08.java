@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Principale08 {
 
 	public static void main(String[] args) {
+
 		int n = 1;
 		String motDePasse = new String(); // Création d'un objet String
 		motDePasse = "";
@@ -23,5 +24,4 @@ public class Principale08 {
 
 		clavier.close();
 	}
-
 }

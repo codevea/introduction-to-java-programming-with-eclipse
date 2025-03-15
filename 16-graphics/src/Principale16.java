@@ -6,5 +6,4 @@ public class Principale16 {
 		Fenetre16 fenetrePrincipale = new Fenetre16();
 		fenetrePrincipale.setVisible(true);
 	}
-
 }

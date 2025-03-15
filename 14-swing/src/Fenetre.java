@@ -5,6 +5,7 @@ public class Fenetre extends JFrame {
 	ConteneurFenetre pan;
 
 	public Fenetre() {
+
 		super(); // peut-être facultatif
 		proprietesFenetre();
 	}
@@ -19,6 +20,5 @@ public class Fenetre extends JFrame {
 
 		pan = new ConteneurFenetre();
 		this.setContentPane(pan);
-
 	}
 }

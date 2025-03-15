@@ -29,6 +29,7 @@ public class Corpulence {
 	}
 
 	public String toString() {
+
 		return "Corpulence [nom=" + nom + ", taille=" + taille + ", poids=" + poids + ", analyseImc()=" + analyseImc()
 				+ "]";
 	}
@@ -65,5 +66,4 @@ public class Corpulence {
 		}
 		return str;
 	}
-
 }

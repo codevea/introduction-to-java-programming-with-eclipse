@@ -32,5 +32,4 @@ public class ConteneurFenetre16 extends JPanel {
 		g.drawString("Dessin", 260, 50);
 		g.drawImage(image, 260, 100, null);
 	}
-
 }

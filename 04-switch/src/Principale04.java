@@ -3,11 +3,13 @@ import java.util.Scanner;
 public class Principale04 {
 
 	public static void main(String[] args) {
+
 		// Création des variable :
 		int codeSolde;
 		double prixArticle, prixSolde;
 
 		Scanner clavier = new Scanner(System.in);
+
 		// Enregistrement des valeurs tapées par l'utilisateur :
 		System.out.print("Entrer le prix de l'article  non soldé : ");
 		prixArticle = clavier.nextDouble();
@@ -32,7 +34,5 @@ public class Principale04 {
 
 		// Libération de la mémoire réservée à l'objet clavier.
 		clavier.close();
-
 	}
-
 }

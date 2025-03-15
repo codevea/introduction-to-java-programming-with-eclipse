@@ -4,11 +4,13 @@ public class Cadre extends Employe {
 	private double prime;
 
 	public Cadre(String pNom, double pSalaire, double pPrime) {
+
 		super(pNom, pSalaire);
 		prime = pPrime;
 	}
 
 	public double getPrime() {
+
 		return prime;
 	}
 

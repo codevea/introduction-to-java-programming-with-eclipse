@@ -27,7 +27,6 @@ public class ConteneurFenetre extends JPanel {
 		this.propButton();
 		this.propchampTexte();
 		this.afficheImage();
-
 	}
 
 	private void propEtiquette() {
@@ -51,7 +50,6 @@ public class ConteneurFenetre extends JPanel {
 		champTexte = new JTextField();
 		this.champTexte.setBounds(130, 50, 100, 20);
 		this.add(champTexte);
-
 	}
 
 	private void afficheImage() {
@@ -61,7 +59,5 @@ public class ConteneurFenetre extends JPanel {
 		this.imageLbl.setBounds(100, 100, 64, 64);
 		this.imageLbl.setIcon(iconPhoto); // On intègre l’image à son conteneur.
 		this.add(imageLbl);
-
 	}
-
 }

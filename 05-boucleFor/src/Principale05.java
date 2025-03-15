@@ -3,12 +3,14 @@ import java.util.Scanner;
 public class Principale05 {
 
 	/**
-	 * Un capital est placé durant n années à un taux annuel d'intérêts composés de t%
-	 * Calculer les intérêts acquis au bout des n années.
-	 * Exercice : https://www.youtube.com/@MathMaurer
+	 * Un capital est placé durant n années à un taux annuel d'intérêts composés de
+	 * t% Calculer les intérêts acquis au bout des n années. Exercice :
+	 * https://www.youtube.com/@MathMaurer
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
+
 		// Déclaration des variables
 		int nombreAnnees, i;
 		double tauxInteret, capitalInitial, capitalFinal;
@@ -34,10 +36,8 @@ public class Principale05 {
 		System.out.print("Les intérêts acquis au bout de " + nombreAnnees + " an(s) sont de ");
 		System.out.printf("%6.2f", capitalFinal - capitalInitial); // Formatage 8 chiffres dont 2 décimales.
 		System.out.printf(" €");
-		
+
 		// Libération de la mémoire réservée à l'objet clavier.
 		clavier.close();
-
 	}
-
 }

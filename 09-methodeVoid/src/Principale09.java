@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Principale09 {
 
 	static void calculeAffichePrixSolde(double prixArticle, double tauxSolde) {
+
 		double prixSolde;
 		prixSolde = (1 - tauxSolde / 100) * prixArticle;
 		System.out.print("Le prix de l'article soldé est " + prixSolde + " €.");
